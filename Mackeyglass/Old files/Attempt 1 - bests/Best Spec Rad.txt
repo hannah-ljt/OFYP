@@ -1,0 +1,1 @@
+Best spec_rad = 0.7
