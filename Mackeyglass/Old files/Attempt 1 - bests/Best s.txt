@@ -1,2 +1,0 @@
-s = 0.19
-zeta = gen_matrix((N, 1), sparsity=0.01, pdf="ones")

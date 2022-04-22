@@ -1,1 +1,0 @@
-Best gamma = 0.9
