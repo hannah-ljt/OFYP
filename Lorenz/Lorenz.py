@@ -166,7 +166,7 @@ hist_w_actuals = predicting['z_actuals'][2]
 hist_w_predictions = predicting['z_predictions'][2]
 esn_help.hist_accuracy_plot(hist_w_actuals, hist_w_predictions, 'file_name.pdf')
 
-# %% historicla accuracy plots -- all 3 dimensions
+# %% historical accuracy plots -- all 3 dimensions
 hist_actuals = np.concatenate((predicting['z_actuals'][0], predicting['z_actuals'][1], predicting['z_actuals'][2]), axis=0)
 hist_predictions = np.concatenate((predicting['z_predictions'][0], predicting['z_predictions'][1], predicting['z_predictions'][2]), axis=0)
 esn_help.hist_accuracy_plot(hist_actuals, hist_predictions, 'file_name.pdf')
